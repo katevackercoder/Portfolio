@@ -1,0 +1,229 @@
+@keyframes slideRight {
+        0% {
+                transform: translateX(-100px);
+                opacity: 0;
+        }
+        100% {
+                transform: translateX(0px);
+                opacity: 1;
+        }
+}
+@keyframes slideLeft {
+        0% {
+                transform: translateX(100px);
+                opacity: 0;
+        }
+        100% {
+                transform: translateX(0px);
+                opacity: 1;
+        }
+}
+
+
+
+@keyframes slideTop {
+        0% {
+                transform: translateY(100px);
+                opacity: 0;
+        }
+        100% {
+                transform: translateY(0px);
+                opacity: 1;
+        }
+}
+@keyframes slideBottom {
+        0% {
+                transform: translateY(-100px);
+                opacity: 0;
+        }
+        100% {
+                transform: translateY(0px);
+                opacity: 1;
+        }
+}
+
+
+<!--skills-->
+
+
+@keyframes html{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 100%;
+        }
+}
+@keyframes css{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 100%;
+        }
+}
+@keyframes html{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 100%;
+        }
+}
+@keyframes javascript{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 95%;
+        }
+}
+@keyframes python{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 75%;
+        }
+}
+@keyframes react{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 85%;
+        }
+}
+@keyframes nodejs{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 85%;
+        }
+}
+@keyframes bootstrap{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 80%;
+        }
+}
+@keyframes github{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 95%;
+        }
+}
+@keyframes problemsolving{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 90%;
+        }
+}
+@keyframes creativity{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 95%;
+        }
+}
+@keyframes communication{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 74%;
+        }
+}
+@keyframes leadership{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 92%;
+        }
+}
+@keyframes teamwork{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 87%;
+        }
+}
+@keyframes socialmedia{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 82%;
+        }
+}
+@keyframes selflearning{
+        0%{
+                width: 0%;
+        }
+        100%{
+                width: 97%;
+        }
+}
+
+
+@media only screen and (max-width: 1200px) {
+        .projects__content-eachProject {
+                margin: 30px;
+        }
+}
+
+@media only screen and (max-width: 900px) {
+        .projects__content-eachProject {
+                margin: 20px;
+        }
+}
+
+@media only screen and (max-width: 600px) {
+
+        .projects i {
+                font-size: 25px;
+                padding: 5px;
+        }
+
+        .projects__header {
+                font-size: 20px;
+                max-width: 200px;
+                border: dashed 4px #fff;
+                padding: 7px 10px;
+                margin-bottom: 10px;
+        }
+
+        .projects__content {
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                -ms-align-items: center;
+                align-items: center;
+        }
+
+        .projects__content-eachProject {
+                max-width: 80%;
+                padding: 10px;
+                padding-bottom: 25px;
+                margin: 20px 0px;
+        }
+
+        .projects__content-eachProject h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+        }
+
+        .eachProject__detail p {
+                font-size: 18px;
+        }
