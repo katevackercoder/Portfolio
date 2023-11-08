@@ -227,3 +227,377 @@
         .eachProject__detail p {
                 font-size: 18px;
         }
+
+
+
+/* @media (max-width: 600px) {
+            .home {
+                grid-template-columns: 1fr; 
+                grid-template-rows: auto;
+                background: url(galaxy.png) no-repeat;
+                background-size: cover;
+                background-position: center; 
+                position: center absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+
+        } */
+
+        /* -----Mobile styles----- */ 
+        
+@media screen and (max-width: 768px) {
+
+html, body {width: auto!important;
+            overflow-x: hidden!important} 
+        
+html {
+          height: 100%;
+          width: 100%;
+}
+       
+.body{
+                
+                position: center absolute;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                place-items: center; 
+                background-attachment: fixed;
+                background-size: cover;
+                background: center;
+                box-sizing: border-box;
+                background-position: center;
+                background: center center fixed;
+
+}
+
+.header {
+                padding: 10px 20px; 
+}
+
+.navbar {
+                display: flex; 
+                flex-direction: column; 
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #020210;
+                z-index: 99;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                transition: 0.3s ease-in-out;
+}
+
+.navbar.active {
+                opacity: 1;
+}
+
+.logo {
+                font-size: 24px; 
+}
+
+.navbar a {
+                font-size: 18px; 
+                margin: 10px;
+                text-align: center;
+}
+
+.navbar.active a {
+                animation: slideTop 1s ease forwards;
+}
+}
+
+         /* ------------------- HOME SECTION -------------------- */
+        
+.home {
+            height: auto;
+            padding: 50px 10px;
+            background: url('space.png') no-repeat;
+            background-size: cover;
+            background-position: center;
+                
+}
+               
+.home .home-content h3 {
+                font-size: 24px; 
+}
+
+.home .home-content h3 {
+                font-size: 24px; 
+                padding: 5px;
+}
+        
+.home .home-content h1 {
+                font-size: 36px; 
+}
+
+.home .home-content p {
+                /* display: none; */
+                font-size: 16px; 
+                line-height: 1.4;
+}
+
+.home .home-sci a {
+                width: 40px; 
+                height: 40px;
+                font-size: 20px;
+                margin-bottom: 20px; 
+}
+
+.home .btn-box {
+                font-size: 16px; 
+                padding: 12px 20px; 
+                z-index: 1;
+}
+
+        /* ------------------- ABOUT SECTION -------------------- */
+
+
+.about {
+                height: auto;
+                padding: 20px 10px 0;  
+                margin: 0;
+                background-size: cover;
+                background-position: center;
+                display: flex;
+                background-attachment:fixed;
+                margin-top: 40px;
+                
+}
+/* .about .about-text {
+                padding: 20px; 
+                width: min-content;
+                
+} */
+.about .about-text h2 {
+                font-size: 50px; 
+                padding-top: 5px;
+                /* margin-top: 0;   */
+                margin-bottom: 10px;  
+                margin-top: -140px;
+}
+
+.about .about-text h4 {
+                font-size: 15px; 
+                margin-bottom: 10px;
+                /* margin: 10px 0;
+                padding: 10px;    */
+}
+
+.about .about-text p {
+                font-size: 10px; 
+                margin: 5px 0;
+                line-height: 1.4;
+                padding: 0%;
+                list-style: none;
+                position: relative;
+                cursor: pointer;
+                transition: .5s ease;  
+}
+
+.about .btn-box {
+                font-size: 12px; 
+                padding: 12px 20px; 
+                margin-top: 10px; 
+                z-index: 1;                   
+}
+
+
+        /* ------------------- SKILL SECTION -------------------- */
+
+.skill{
+                text-align: center;
+                font-size: 60px;
+                padding-bottom: 70px;
+                align-items: center;
+                margin-top: 75px;
+
+}
+
+.skill h2{
+                font-size: 24px;
+                align-items: center;
+}
+.skill h2 span{
+                color: #f5d5e0;
+                font-size: 20px;
+                /* font-size: 30%; */
+                align-items: center;
+
+
+}
+
+section{
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                
+}
+
+
+.container1{
+                width: 600px;
+                height: 500px;
+                padding: 75px 90px; 
+                margin-left: -300px;
+                margin-bottom: 700px;
+                
+}
+
+.heading1{
+                text-align: center;
+                text-decoration: underline;
+                text-underline-offset: 10px;
+                text-decoration-thickness: 5px;
+                margin-bottom: 10px;
+                align-items: center;
+                justify-content: center;
+                margin-left: -125px;
+                            
+}
+
+.container1 .heading1 lu h3{
+               font-size: 30px;
+}
+
+.container1 .heading1 lu h3 span{
+}
+        
+.bar{
+                background: #f5d5e0;
+                display: block;
+                height: 20px;
+                border: 1px solid rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+                transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+                align-items: center;
+                justify-content: center;
+                margin-left: -125px;
+}
+.container2{
+                width: 600px;
+                height: 500px;
+                padding: 75px 90px;
+                margin-left: 120px;
+}
+
+.heading1{
+                text-align: center;
+                text-decoration: underline;
+                text-underline-offset: 10px;
+                text-decoration-thickness: 5px;
+                margin-bottom: 50px;
+}
+
+        /* ------------------- PROJECTS SECTION -------------------- */
+
+
+.projects .projects__header {
+                font-size: 32px; 
+}
+
+.projects .projects__content {
+                flex-direction: column; 
+                align-items: center;
+}
+
+.projects .projects__content-eachProject {
+                width: 80%; 
+                max-width: 100%; 
+                margin: 20px 0;
+}
+
+.projects .projects__content-eachProject:hover {
+                box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.7);
+}
+
+.projects .eachProject__thumbnail {
+                max-width: 100%;
+}
+
+.projects .projects__content-eachProject img {
+                max-width: 100%;
+                max-height: auto;
+}
+
+.projects .eachProject__detail h3 {
+                font-size: 18px;
+}
+
+.projects .eachProject__detail p {
+                font-size: 16px; 
+}
+
+.projects .projects__content-eachProject a {
+                display: block; 
+                padding: 10px; 
+                text-align: center; 
+}
+
+
+        /* ------------------- CONTACT SECTION @media -------------------- */
+
+.contact {
+        grid-template-columns: 1fr; 
+        padding-left: 10px; 
+        margin-top: 28px; 
+       
+}
+
+.contact .contact-text{
+         text-align: center;
+         position: center;
+         align-items: center;
+         margin-top: 100px; 
+         margin-bottom: 28px;
+         margin-left: 20px;
+}
+        
+.contact .contact-text h2 {
+         font-size: 60px; 
+         text-align: center;
+         position: center;
+}
+
+.contact .contact-text h4 {
+        font-size: 16px; 
+        text-align: center;
+        position: center;
+}
+
+.contact .contact-text p {
+        font-size: 16px; 
+}
+
+.contact .contact-form form {
+                width: 100%; 
+                display: none;
+                
+                
+}
+
+.contact .contact-form form input, .contact-form textarea {
+                width: 100%; 
+}
+
+.contact .contact-form form .send {
+                width: 100%; 
+}
+
+.last-text p{
+                width: 100%;
+                text-align: center;
+                margin-left: 10px;
+}
+}
