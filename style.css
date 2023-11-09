@@ -173,7 +173,7 @@ body{
         width: 100%;
         justify-content: space-between;
         height: 100vh;
-        background: url(assets/img/star.jpg) no-repeat;
+        /* background: url(assets/img/star.jpg) no-repeat; */
         background-size: cover;
         background-position: center;
         display: flex;
@@ -246,6 +246,7 @@ section{
         text-underline-offset: 10px;
         text-decoration-thickness: 5px;
         margin-bottom: 50px;
+        font-size: 35px;
 }
 .bar{
         background: #f5d5e0;
@@ -608,9 +609,9 @@ h3 i{
         gap: 3rem;
         padding-left: 30px;
         margin-top: 130px;
-        background: url(assets/img/night.jpg) no-repeat;
+        /* background: url(assets/img/star.jpg) no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center; */
 }
 .contact-text h2{
         font-size: 90px;
@@ -691,7 +692,8 @@ h3 i{
         width: 90%;
         padding: 18px;
         background-color: #fff;
-        color: #CC7C75;
+        /* color: #CC7C75; */
+        color: #000;
         font-size: 1rem;
         font-weight: 600;
         margin-bottom: 0.5rem;
