@@ -241,6 +241,17 @@ argin-left: 120px;
         
 }
 
+@media only screen and (max-width: 1175px){ 
+.container{
+width:100%;
+}
+
+}
+.holder{
+       max-width: 1000px;
+       margin: auto;
+}
+
 .container2{
         width: 600px;
         height: 500px;
