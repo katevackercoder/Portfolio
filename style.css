@@ -237,7 +237,22 @@ section{
         width: 600px;
         height: 500px;
         padding: 75px 90px;
-        margin-left: 120px;
+argin-left: 120px;
+        
+}
+
+.container2{
+        width: 600px;
+        height: 500px;
+        padding: 75px 90px;
+argin-left: 120px;
+}
+
+.container{
+        width: 50%;
+eight: 500px;
+        padding: 75px 90px;
+argin-left: 120px;
 }
 
 .heading1{
@@ -311,12 +326,7 @@ h3 i{
 }
 
 
-.container2{
-        width: 600px;
-        height: 500px;
-        padding: 75px 90px;
-        margin-left: 120px;
-}
+
 
 .heading2{
         text-align: center;
