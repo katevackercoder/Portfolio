@@ -241,12 +241,7 @@ argin-left: 120px;
         
 }
 
-@media only screen and (max-width: 1175px){ 
-.container{
-width:100%;
-}
 
-}
 .holder{
        max-width: 1000px;
        margin: auto;
@@ -267,6 +262,12 @@ eight: 500px;
 argin-left: 120px;
 }
 
+@media only screen and (max-width: 1175px){ 
+.container{
+width:100%;
+} 
+
+}
 .heading1{
         text-align: center;
         text-decoration: underline;
